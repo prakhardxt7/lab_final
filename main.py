@@ -16,7 +16,7 @@ class PredictRequest(BaseModel):
 
 @app.get("/")
 def read_root():
-    return {"message": "Welcome to the FastAPI Simple Linear Regression API and I made some changes."}
+    return {"message": "gbgbgbgfgWelcome to the FastAPI Simple Linear Regression API and I made some changes."}
 
 @app.post("/predict/")
 def predict(request: PredictRequest):
